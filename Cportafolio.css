@@ -1,0 +1,210 @@
+body {
+    background: url("Imagenes/FondoNegro2.jpg");
+}
+
+.containerH {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.containerT {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    transform: translate(1vw, 30vh);
+}
+
+.text{
+    color: white;
+    font-size: 36px
+}
+
+.container {
+    position: relative;
+    width: 30vw;
+    height: 35vh;
+}
+
+.centeredM {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px black ;
+}
+
+.centeredV {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    ;
+}
+
+.centeredA {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    ;
+}
+
+.centeredS {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    ;
+    color: white;
+}
+
+.image1{
+    display: block;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 5%;
+
+}
+
+.image.imageB .overlayVideoGames{
+    display: block;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 5%;
+
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 4000 ;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayVideoGames {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url("Imagenes/MegamanZero3.jpg");
+    vertical-align: center;
+    background-size: 30vw 35vh;
+}
+
+.overlayAnime {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url("Imagenes/YourLieInApril.jpg");
+    vertical-align: center;
+    background-size: 30vw 35vh;
+}
+
+.overlayMovies {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url("Imagenes/TASM2.jpg");
+    vertical-align: center;
+}
+
+.overlayTvSeries {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url("Imagenes/BreakinBad.jpg");
+    vertical-align: center;
+    background-size: 30vw 35vh;
+}
+
+
+  
+.container:hover .overlayMovies {
+    opacity: 1;
+}
+
+.container:hover .overlayTvSeries {
+    opacity: 1;
+}
+
+.container:hover .overlayAnime {
+    opacity: 1;
+}
+
+.container:hover .overlayVideoGames {
+    opacity: 1;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    /*text-align: center;*/
+}
+
+p{
+    color: white;
+    text-align: justify;
+}
+
+#caplenguaje{
+    border-radius: 10%;
+    height: 30vh;
+    width: auto;
+
+}
+
+li{
+    color: white;
+    text-align: justify;
+}
+
+.textN{
+    text-align: center;
+    -webkit-text-stroke: 1px black ;
+    font-size: 28px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.CC{
+    margin-top: 15%;
+    margin-bottom: 50%;
+}
