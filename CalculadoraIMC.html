@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+
+<head>
+    <title>CalculadoradeIMC</title>
+    <link type="text/css" rel="stylesheet" href="IMC.css">
+    <script type="text/javascript" src="IMCjson.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+
+</body>
+
+    <h1>Calculadora de IMC</h1>
+
+    <div class="container">
+        <form>
+            <label for="peso" class="biggertext">Ingresar el Peso: </label><br>
+            <input type="number" id="peso" name="peso"><br><br><hr>
+            <label for="estatura" class="biggertext">Ingresar la estatura: </label><br>
+            <input type="number" id="estatura" name="estatura"><br><br>
+            <br>
+            <input type="button" value="calcular" onclick="procesarFormulario()">   
+        </form>
+        <br>
+        <hr>
+        <p id="salida" class="biggertext2">Resultado: </p>
+    </div>
+</html>

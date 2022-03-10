@@ -1,0 +1,40 @@
+body{
+    background-color: #333333;
+}
+
+.container {
+    float: center;
+    width: 25vw;
+    height: 70vh;
+    background-color: #000000;
+    text-align: center;
+    transform: translate(37vw, 4vh);
+    border: 2px solid white;
+  }
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 4000 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.biggertext {
+    color: white;
+    font-size: 42px;
+    position: static;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.biggertext2 {
+    color: white;
+    font-size: 24px;
+    position: static;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+input{
+    height: 5vh;
+    font-size: 20px;
+}
