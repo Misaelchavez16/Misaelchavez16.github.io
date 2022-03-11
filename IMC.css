@@ -4,13 +4,20 @@ body{
 
 .container {
     float: center;
-    width: 25vw;
-    height: 70vh;
+    width: 40vw;
+    height: 130vh;
     background-color: #000000;
     text-align: center;
-    transform: translate(37vw, 4vh);
+    transform: translate(30vw, 4vh);
     border: 2px solid white;
   }
+
+img {
+    width: 20vw;
+    height: 60vh;
+    border-radius: 5%;
+    text-align: center;
+}
 
 h1{
     color: white;
